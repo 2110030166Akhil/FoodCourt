@@ -1,0 +1,62 @@
+*
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+img
+{
+    height: 70px;
+    width: 140px;
+    cursor: pointer;
+}
+.nav-text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.navbar-menu
+{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    cursor: pointer;
+}
+.fa-solid .fa-magnifying-glass
+{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+button
+{
+   border: transparent;
+   font-size: 16px;
+   color: white;
+   background-color: #c53053;
+   border: 1px solid #c53053;
+   padding: 10px 30px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+.nav-text .select 
+{
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.nav-text .select-text
+{
+    color: grey;
+    margin-left: 1px;
+    font-size: small;
+    font-weight: 400;
+}
+.simg
+{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.footer
+{
+    background-color: #d0e1fd;
+}
+.left
+{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+.isth-img
+{
+    width: 150px;
+    height: 150px;
+}
+.left-download
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.top
+{
+    display: flex;
+}
+.r-top
+{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.r1
+{
+    margin-right: 200px;
+    align-items: center;
+    text-align: center;
+}
+.r2
+{
+    margin-right: 200px;
+    align-items: center;
+    text-align: center;
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: lighter;
+    font-size: medium;
+}
+hr
+{
+    margin-right: 150px;
+}
+.r3
+{
+    margin-right: 100px;
+}
+.r-bottom
+{
+    margin-left: 40px;
+}
+.oup-lists
+{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+.border-bottom
+{
+    margin-left: 40px;
+}
+.bottom{
+   margin-left: 40px;
+   padding-bottom: 100px;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 40px;
+}
+.bottom-text
+{
+    display: flex;
+    gap: 30px;
+}
+.only-icons
+{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+.icon-text
+{
+    font-size: x-small;
+}

@@ -1,0 +1,49 @@
+<div class="hero">
+    <h2>What's on your mind?</h2>
+    <div class="menu-list">
+      <div class="list" *ngFor="let m of menu" [style.backgroundColor]="m.clr">
+        <img [src]="m.imgstr">
+        <p>{{m.name}}</p>
+      </div>
+    </div>
+   <h2 class="quick-text">Quick bites in less than 10 min</h2>
+   <div class="menu-items">
+     <div class="quickbites" *ngFor="let q of quick">
+         <img [src]="q.img" class="quick-img">
+         <p class="prod-name">{{q.pn}}</p>
+         <p class="rest-name">{{q.rn}}</p>
+         <p class="price">Price-Rs.{{q.pr}}</p>
+         <button class="abut">Add</button>
+     </div>
+   </div>
+   <h2 class="spt">In the spotlight</h2>
+   <div class="spotlight">
+       <div class="spl-list" *ngFor="let q of quick">
+        <img [src]="q.img" class="quick-img">
+         <p class="prod-name">{{q.pn}}</p>
+         <p class="rest-name">{{q.rn}}</p>
+         <p class="price">Price-Rs.{{q.pr}}</p>
+         <button class="abut">Add</button>   
+       </div>
+   </div>
+   <h2 class="rest-tit">All Restaurants</h2>
+   <div class="all-rest">
+      <div class="all-rest-list" *ngFor="let i of rest">
+        <img [src]="i.bimg" class="all-rest-img">
+        <div class="all-rest-name">
+          <p>{{i.rname}}</p>
+          <div class="all-rest-rating">
+            <i class="fa-solid fa-star"></i>
+            <p>{{i.rimg}}</p>
+          </div>
+        </div>
+        <ul>
+          <li *ngFor="let k of i.cui">{{k}}</li>
+        </ul>
+      </div>
+   </div>
+   
+   
+   <h1></h1>
+
+</div>
